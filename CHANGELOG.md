@@ -1,0 +1,14 @@
+# Barracks Map Changelog
+- Add barracks map
+- Configure barracks map
+- Add supply drop location & configure
+- Add more supply drop locations to barracks
+- Add chests to barracks & configure
+- Increase value of barracks central chests
+- Paste the map into a natural location **(^^^ Release v0.1.0)**
+- Reconfigure locations
+- Add a ring of fences around the map with torches
+- Add world border to barracks
+- Update barracks map
+- Set game rules for barracks map
+- Add rain to barracks map **(^^^ Release v1.0.0)**
