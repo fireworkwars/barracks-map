@@ -5,10 +5,11 @@
 - Add more supply drop locations to barracks
 - Add chests to barracks & configure
 - Increase value of barracks central chests
-- Paste the map into a natural location **(^^^ Release v0.1.0)**
+- Paste the map into a natural location
 - Reconfigure locations
-- Add a ring of fences around the map with torches
-- Add world border to barracks
-- Update barracks map
-- Set game rules for barracks map
-- Add rain to barracks map **(^^^ Release v1.0.0)**
+- Remove some hollow space underground
+- Configure world border data
+- Add a ring of fences around the map with torches **(^^^ Release v0.1.0)**
+- Remove random blocks on chaos tower
+- Close trapdoor in chaos wall
+- Add rain to barracks map
