@@ -9,7 +9,7 @@
 - Reconfigure locations
 - Remove some hollow space underground
 - Configure world border data
-- Add a ring of fences around the map with torches **(^^^ Release v0.1.0)**
+- Add a ring of fences around the map with torches **(Release v0.1.0)**
 - Remove random blocks on chaos tower
 - Close trapdoor in chaos wall
 - Add rain to barracks map
