@@ -3,8 +3,8 @@
 - Configure barracks map
 - Add supply drop location & configure
 - Add more supply drop locations to barracks
-- Add chests to barracks & configure
-- Increase value of barracks central chests
+- Add chests & configure
+- Increase value of central chests
 - Paste the map into a natural location
 - Reconfigure locations
 - Remove some hollow space underground
