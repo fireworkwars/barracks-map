@@ -20,3 +20,7 @@ DIM1
 
 # "Old" data files
 *.dat_old
+
+# Not important aspects of the world
+data
+poi
