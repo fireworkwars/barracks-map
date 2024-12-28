@@ -28,3 +28,7 @@ poi
 # Datapacks folder
 # There are no datapacks in this world.
 datapacks
+
+# Entities
+# There are no entities on this map - yet. If entities are added (E.g., item frames, this should be unignored).
+entities
