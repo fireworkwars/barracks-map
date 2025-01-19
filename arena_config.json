@@ -42,7 +42,7 @@
             "color": {
                 "color": "GREEN"
             },
-            "miniMessageString": "<dark_green>Chaos Insurgency</dark_green>",
+            "miniMessageString": "<dark_green>Firework Insurgency</dark_green>",
             "spawnLocation": {
                 "worldName": "barracks",
                 "x": 22,
@@ -56,7 +56,7 @@
             "color": {
                 "color": "BLUE"
             },
-            "miniMessageString": "<blue>SCP Foundation</blue>",
+            "miniMessageString": "<blue>Gunpowder Foundation</blue>",
             "spawnLocation": {
                 "worldName": "barracks",
                 "x": 47,
