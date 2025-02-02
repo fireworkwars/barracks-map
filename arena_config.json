@@ -2,195 +2,67 @@
     "worlds": [
         "barracks"
     ],
-    "gameRules": {
-        "doFireTick": false,
-        "disableRaids": true,
-        "doDaylightCycle": false,
-        "doInsomnia": false,
-        "doMobLoot": false,
-        "doMobSpawning": false,
-        "doPatrolSpawning": false,
-        "doTraderSpawning": false,
-        "doVinesSpread": false,
-        "doWeatherCycle": false,
-        "mobGriefing": true,
-        "randomTickSpeed": 0,
-        "spawnChunkRadius": 10
+    "mapType": "BARRACKS",
+    "name": "<!i><dark_green>Barracks #1</dark_green>",
+    "description": "<!i><gray>Nice and simple but packed with</gray>\n<!i><gray>features. Great for quick 1v1s.</gray>",
+    "chunkCornersPerWorld": {
+        "barracks": [
+            { "worldName": "barracks", "x": 14, "z": 16 },
+            { "worldName": "barracks", "x": -5, "z": -1 }
+        ]
     },
     "countDownSeconds": 15,
-    "gameDurationMinutes": 30,
-    "totalChestRefills": 10,
+    "gameDurationMinutes": 7,
+    "totalChestRefills": 5,
     "minimumPlayerCount": 2,
-    "maximumPlayerCount": 20,
-    "waitingAreaLocation": {
-        "worldName": "barracks",
-        "x": 126,
-        "y": 63,
-        "z": 115,
-        "yaw": 90,
-        "pitch": 0
+    "maximumPlayerCount": 4,
+    "waitingAreaLocation": { "worldName": "barracks", "x": 126, "y": 63, "z": 115, "yaw": 90, "pitch": 0 },
+    "teamInformation": [
+        {
+            "color": {"color": "GREEN"},
+            "miniMessageString": "<dark_green>Firework Insurgency</dark_green>",
+            "spawnLocation": { "worldName": "barracks", "x": 22, "y": 64, "z": 106, "yaw": -40, "pitch": 0 }
+        },
+        {
+            "color": {"color": "BLUE"},
+            "miniMessageString": "<blue>Gunpowder Foundation</blue>",
+            "spawnLocation": { "worldName": "barracks", "x": 47, "y": 64, "z": 133, "yaw": 140, "pitch": 0 }
+        }
+    ],
+    "chestLocations": [
+        { "worldName": "barracks", "x": 53, "y": 64, "z": 110, "maxTotalValue": 35, "maxValuePerItem": 28 },
+        { "worldName": "barracks", "x": 37, "y": 64, "z": 104, "maxTotalValue": 35, "maxValuePerItem": 28 },
+        { "worldName": "barracks", "x": 21, "y": 64, "z": 101, "maxTotalValue": 35, "maxValuePerItem": 28 },
+        { "worldName": "barracks", "x": 32, "y": 64, "z": 116, "maxTotalValue": 50, "maxValuePerItem": 35 },
+        { "worldName": "barracks", "x": 21, "y": 64, "z": 128, "maxTotalValue": 35, "maxValuePerItem": 28 },
+        { "worldName": "barracks", "x": 34, "y": 64, "z": 122, "maxTotalValue": 50, "maxValuePerItem": 35 },
+        { "worldName": "barracks", "x": 48, "y": 64, "z": 138, "maxTotalValue": 35, "maxValuePerItem": 28 },
+        { "worldName": "barracks", "x": 35, "y": 64, "z": 137, "maxTotalValue": 35, "maxValuePerItem": 28 }
+    ],
+    "supplyDropData": {
+        "supplyDropLocations": [
+            { "worldName": "barracks", "x": 47, "y": 100, "z": 137, "yaw": 0, "pitch": 0 },
+            { "worldName": "barracks", "x": 22, "y": 100, "z": 102, "yaw": 0, "pitch": 0 },
+            { "worldName": "barracks", "x": 49, "y": 100, "z": 119, "yaw": 0, "pitch": 0 },
+            { "worldName": "barracks", "x": 32, "y": 100, "z": 114, "yaw": 0, "pitch": 0 },
+            { "worldName": "barracks", "x": 34, "y": 100, "z": 125, "yaw": 0, "pitch": 0 }
+        ],
+        "supplyDropIntervalTicks": 1500,
+        "supplyDropIntervalRandomness": 350
+    },
+    "endgameData": {
+        "endgameStartMinutes": 5,
+        "warnBeforeEndgameSeconds": 60,
+        "warnBeforeGameEndSeconds": 60
     },
     "worldBorderInformation": {
         "centerX": 33,
         "centerZ": 119,
         "radius": 50,
         "endgameRadius": 20,
-        "secondsToReachEndgameRadius": 300
+        "secondsToReachEndgameRadius": 90
     },
-    "teamInformation": [
-        {
-            "color": {
-                "color": "GREEN"
-            },
-            "miniMessageString": "<dark_green>Firework Insurgency</dark_green>",
-            "spawnLocation": {
-                "worldName": "barracks",
-                "x": 22,
-                "y": 64,
-                "z": 106,
-                "yaw": -40,
-                "pitch": 0
-            }
-        },
-        {
-            "color": {
-                "color": "BLUE"
-            },
-            "miniMessageString": "<blue>Gunpowder Foundation</blue>",
-            "spawnLocation": {
-                "worldName": "barracks",
-                "x": 47,
-                "y": 64,
-                "z": 133,
-                "yaw": 140,
-                "pitch": 0
-            }
-        }
-    ],
-    "chestLocations": [
-        {
-            "worldName": "barracks",
-            "x": 53,
-            "y": 64,
-            "z": 110,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "barracks",
-            "x": 37,
-            "y": 64,
-            "z": 104,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "barracks",
-            "x": 21,
-            "y": 64,
-            "z": 101,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "barracks",
-            "x": 32,
-            "y": 64,
-            "z": 116,
-            "maxTotalValue": 50,
-            "maxValuePerItem": 35
-        },
-        {
-            "worldName": "barracks",
-            "x": 21,
-            "y": 64,
-            "z": 128,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "barracks",
-            "x": 34,
-            "y": 64,
-            "z": 122,
-            "maxTotalValue": 50,
-            "maxValuePerItem": 35
-        },
-        {
-            "worldName": "barracks",
-            "x": 48,
-            "y": 64,
-            "z": 138,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "barracks",
-            "x": 35,
-            "y": 64,
-            "z": 137,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        }
-    ],
-    "supplyDropData": {
-        "supplyDropLocations": [
-            {
-                "worldName": "barracks",
-                "x": 47,
-                "y": 100,
-                "z": 137,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "barracks",
-                "x": 22,
-                "y": 100,
-                "z": 102,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "barracks",
-                "x": 49,
-                "y": 100,
-                "z": 119,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "barracks",
-                "x": 32,
-                "y": 100,
-                "z": 114,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "barracks",
-                "x": 34,
-                "y": 100,
-                "z": 125,
-                "yaw": 0,
-                "pitch": 0
-            }
-        ],
-        "supplyDropIntervalTicks": 2500,
-        "supplyDropIntervalRandomness": 600
-    },
-    "endgameData": {
-        "endgameStartMinutes": 22,
-        "warnBeforeEndgameSeconds": 300,
-        "wardenSpawnLocation": {
-            "worldName": "barracks",
-            "x": 19,
-            "y": 64,
-            "z": 122,
-            "yaw": -90,
-            "pitch": 0
-        },
-        "wardenShrineProtectionRadius": 5,
-        "warnBeforeGameEndSeconds": 300
+    "wardenData": {
+        "enabled": false
     }
 }
