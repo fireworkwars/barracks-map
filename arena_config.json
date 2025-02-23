@@ -21,12 +21,16 @@
         {
             "color": { "color": "GREEN" },
             "miniMessageString": "<dark_green>Firework Insurgency</dark_green>",
-            "spawnLocation": { "worldName": "barracks", "x": 22, "y": 64, "z": 106, "yaw": -40, "pitch": 0 }
+            "spawnLocation": { "worldName": "barracks", "x": 22, "y": 64, "z": 106, "yaw": -40, "pitch": 0 },
+            "nameTagVisibility": "FOR_OTHER_TEAMS",
+            "collisionRule": "NEVER"
         },
         {
             "color": { "color": "BLUE" },
             "miniMessageString": "<blue>Gunpowder Foundation</blue>",
-            "spawnLocation": { "worldName": "barracks", "x": 47, "y": 64, "z": 133, "yaw": 140, "pitch": 0 }
+            "spawnLocation": { "worldName": "barracks", "x": 47, "y": 64, "z": 133, "yaw": 140, "pitch": 0 },
+            "nameTagVisibility": "FOR_OTHER_TEAMS",
+            "collisionRule": "NEVER"
         }
     ],
     "chestLocations": [
