@@ -16,6 +16,7 @@
     "totalChestRefills": 5,
     "minimumPlayerCount": 2,
     "maximumPlayerCount": 4,
+    "silentDeaths": false,
     "waitingAreaLocation": { "worldName": "barracks", "x": 126, "y": 63, "z": 115, "yaw": 90, "pitch": 0 },
     "teamInformation": [
         {
