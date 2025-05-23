@@ -73,5 +73,6 @@
     },
     "wardenData": {
         "enabled": false
-    }
+    },
+    "itemData": []
 }
